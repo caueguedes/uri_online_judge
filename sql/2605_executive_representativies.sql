@@ -1,0 +1,1 @@
+SELECT products.name, providers.name from products join providers on products.id =
