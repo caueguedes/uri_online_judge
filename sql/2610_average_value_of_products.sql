@@ -1,0 +1,1 @@
+SELECT TRUNC(AVG(products.price),2) from products;
