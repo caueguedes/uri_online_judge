@@ -1,11 +1,7 @@
 SELECT
     products.name,
-    providers.name,
-    categories.name
-FROM products
-    INNER JOIN providers ON providers.id = products.id_providers
-    INNER JOIN categories ON categories.id = products.id_categories
+    providers.name
+FROM
+    products JOIN providers ON products.id_providers = providers.id
 WHERE
-     providers.name = 'Sansul SA'
-AND
-    categories.name = 'Imported'
+	providers.name = 'Ajax SA'
