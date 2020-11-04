@@ -8,7 +8,6 @@ ddd_dict = {
     27: 'Vitoria',
     31: 'Belo Horizonte'
 }
-
 ddd = int(input())
-print(ddd_dict.get(11))
+print(ddd_dict.get(ddd, 'DDD nao cadastrado'))
 
